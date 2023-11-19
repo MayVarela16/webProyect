@@ -1,0 +1,182 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand:wght@300;400&family=Raleway&family=Roboto:ital,wght@0,300;1,100&display=swap');
+
+.section{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.navbar{
+    padding: 2rem;
+    background-color:#f5f6f7;
+}
+.container-fluid{
+    color:#1b1b32;
+}
+.navbar-collapse {
+    align-items: center;
+    justify-content: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.hero{
+    background-color: rgb(208, 230, 222);
+    min-height: 450px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.foto-perfil {
+    width: 300px;
+    border: 5px solid #f5f6f7;
+    border-radius: 50%;
+    margin: 20px;
+}
+ .hero-principal {
+    padding: 3rem;
+ }
+
+ .sobre-mi{
+    padding: 20px;
+    background-color: #1b1b32;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 13px;
+    background-size: cover;
+    background-position: center;
+ }
+ 
+ .sobre-mi .contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 70px;
+ }
+
+.nombre{
+    font-size: 2.5 rem;
+    color: #1b1b32;
+}
+.profesion{
+    font-size: 2.5 rem;
+    color: #615151;
+}
+.seccion-titulo{
+    font-size: 2rem;
+    padding: 15px; 
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+.seccion-texto{
+    font-size: 1.2 rem;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: lighter;
+ 
+}
+
+.experiencia{
+    padding: 40px 40px 60px 40px;
+    border: 1px solid #1b1b32;
+}
+
+
+.seccion-clara{
+    color:#615151;
+    background-color:rgb(208, 230, 222);
+}
+.experiencia i{
+    font-size: 2.5rem;
+    color:#1b1b32;
+    padding: 8px 19px;
+}
+
+.kantar {
+    font-family: 'Quicksand', sans-serif;
+    color: #615151;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.thonet {
+    font-family: 'Quicksand', sans-serif;
+    color: #615151;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.freelance {
+    font-family: 'Quicksand', sans-serif;
+    color: #615151;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.exp1 {
+    font-family: 'Quicksand', sans-serif;
+    color: #1b1b32;
+    font-size: 13px;
+    font-weight: lighter;
+    margin: 10px 0;
+}
+.exp2 {
+    font-family: 'Quicksand', sans-serif;
+    color: #1b1b32;
+    font-size: 13px;
+    font-weight: lighter;
+    margin: 10px 0;
+}
+.exp3 {
+    font-family: 'Quicksand', sans-serif;
+    color: #1b1b32;
+    font-size: 13px;
+    font-weight: lighter;
+    margin: 10px 0;
+}
+.proyectos-recientes{
+    padding: 40px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #f5f6f7;
+}
+.texto-negro{
+color:#1b1b32;
+font-family: 'Quicksand', sans-serif;
+}
+
+.seccion-descripcion {
+    font-size: 1.2rem;
+    color: #615151;
+
+}
+
+
+@media screen and (max-width: 767px) {
+    .collapse img {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .hero-inferior-imagen {
+        max width: 600px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .sobre-mi {
+        padding: 10px; /* Ajusta el espaciado en pantallas más pequeñas */
+    }
+
+    .seccion-titulo {
+        font-size: 1.5rem;
+        padding: 10px;
+    }
+
+    .seccion-texto {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+}
